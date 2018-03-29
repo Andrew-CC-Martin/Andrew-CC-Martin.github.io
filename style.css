@@ -1,6 +1,14 @@
-/* font-family: 'Alegreya Sans', sans-serif;
-font-family: 'Alegreya', serif;
-font-family: 'Alegreya Sans SC', sans-serif; */
+/* palette colors:
+Light shades - WAFER DED3CE
+Light accent - WAIKAWA GRAY 5B749E
+Main brand color - DISCO 6D0663
+Dark accent - SMOKY 685A77
+Dark shades - WOODSMOKE 131519
+typography:
+h1: alegreya
+h2: algreya sans sc
+p: alegreya sans
+*/
 
 body {
     background: #DED3CE;
@@ -41,8 +49,20 @@ body {
     min-height: 100vh;
 }
 
-h1 {
-    font-family: 'Alegreya', serif;
-    color: white;
+body, html, .container-fluid {
+    height: 100vh;
 }
 
+h1 {
+    font-family: 'Alegreya', serif;
+    color: rgba(255,255,255,.5);
+}
+
+h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #131519;
+}
