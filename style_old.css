@@ -1,0 +1,97 @@
+/* palette colors: 
+Light shades - WAFER DED3CE
+Light accent - WAIKAWA GRAY 5B749E
+Main brand color - DISCO 6D0663
+Dark accent - SMOKY 685A77
+Dark shades - WOODSMOKE 131519
+typography:
+h1: alegreya
+h2: algreya sans sc
+p: alegreya sans
+*/
+
+body {
+    font-family: Karla, sans-serif;
+    color: white;
+    background: #DED3CE url(background.jpg) no-repeat  center;
+}
+
+
+
+.container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.skills {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* .sitemap{
+    
+} */
+
+.logo img {
+    height: 40px;
+    width: auto;
+    justify-content: flex-start;
+}
+
+h1 {
+    color: white;
+    height: 500px;
+    font-family: alegreya;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+.tagline {
+    display: flex;
+    /* margin: auto; */
+    justify-content: flex-start;
+    margin-left: 30%;
+    align-items: flex-end;
+    width: 100%;
+    
+}
+
+h2 {
+    align-self: center;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: #131519;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    color: grey;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	/* font-weight: 500; */
+}
+
+a:hover {
+	border-bottom: gray;
+	background-color: white;
+	color: gray;
+	text-align: center;
+	transition: background 0.5s;
+}
