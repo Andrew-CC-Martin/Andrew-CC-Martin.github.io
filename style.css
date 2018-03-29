@@ -61,6 +61,14 @@ p {
     color: #131519;
 }
 
+a {
+    color: #131519;
+}
+
+a:hover {
+    color: #6D0663;
+}
+
 * {
     box-sizing: border-box;
   }
