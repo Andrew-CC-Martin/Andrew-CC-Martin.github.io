@@ -11,20 +11,31 @@ p: alegreya sans
 */
 
 body {
-    background: #DED3CE;
+    /* background: rgba(221, 188, 206, 0); */
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 120%;
+    background-image: linear-gradient(to top,#ad9dd3 0%, #fbc2eb 100%);
 }
 
 #home {
     min-height: 100vh;
-    background-image: url('background.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: url('background.jpg') no-repeat center center fixed;
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
+i {
+  margin: 5vh
+}
+
+/* 
  #about {
     min-height: 100vh;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
 
 #my-timeline {
@@ -42,10 +53,11 @@ body {
 #contact {
     min-height: 100vh;
 }
+*/
 
-body, html, .container-fluid {
+/* body, html, .container-fluid {
     height: 100vh;
-}
+} */
 
 h1 {
     font-family: 'Alegreya', serif;
