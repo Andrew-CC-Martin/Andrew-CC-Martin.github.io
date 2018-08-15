@@ -14,7 +14,8 @@ body {
     /* background: rgba(221, 188, 206, 0); */
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 120%;
-    background-image: linear-gradient(to top,#ad9dd3 0%, #fbc2eb 100%);
+    /* background-image: linear-gradient(to top,#ad9dd3 0%, #fbc2eb 100%); */
+    background: #b9add6
 }
 
 #home {
